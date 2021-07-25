@@ -1,0 +1,36 @@
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#navigation {
+  background-color: #CBC3D5;
+}
+
+#home {
+  background-color: #CBC3D5;
+}
+
+#about-me {
+  background-color: #70998C;
+}
+
+#projects {
+  background-color: #325CAE;
+}
+
+#contact-me {
+  color: #70998C;
+  background-color: #073B3A;
+}
+
+#contact-me a {
+  color: #517ACD;
+}
+
+a {
+  color: #325CAE;
+}
+
+img {
+  border-radius: 50%;
+}
