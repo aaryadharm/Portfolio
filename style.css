@@ -1,36 +1,47 @@
-body{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+.top {
+  width:50px;
 }
 
-#navigation {
-  background-color: #CBC3D5;
+.nav-item {
+  padding: 0.5rem;
+}
+
+#home span{
+  color: #70998C;
+  font-weight: 600;
+}
+
+body{
+  font-family: 'Nunito', sans-serif, Georgia;
+  background-color: hsl(271.8,58.6%,88.6%) !important;
+  color: #2a2a2a;
 }
 
 #home {
-  background-color: #CBC3D5;
-}
-
-#about-me {
-  background-color: #70998C;
-}
-
-#projects {
-  background-color: #325CAE;
-}
-
-#contact-me {
-  color: #70998C;
-  background-color: #073B3A;
-}
-
-#contact-me a {
-  color: #517ACD;
-}
-
-a {
-  color: #325CAE;
+  color: #2a2a2a;
 }
 
 img {
-  border-radius: 50%;
+  border-radius: 10%;
+}
+
+.project-item {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.secondary{
+  color: #49093E;
+}
+
+.primary {
+  color: #70998C;
+}
+
+em {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 600;
 }
