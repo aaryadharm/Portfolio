@@ -1,7 +1,7 @@
 body{
-  font-family: 'Nunito', sans-serif, Georgia;
-  background-color: hsl(271.8,58.6%,88.6%) !important;
+  font-family: 'Merriweather', sans-serif, Georgia;
   color: #2a2a2a;
+  background-color: #D6EDFF;
 }
 
 .top {
@@ -24,7 +24,7 @@ body{
 }
 
 #home span{
-  color: #70998C;
+  color: #064789;
   font-weight: 600;
 }
 
@@ -32,6 +32,7 @@ body{
   color: #2a2a2a;
   padding-top: 4rem; 
   padding-bottom: 6rem;
+  background-color: #D6EDFF;
 }
 
 img {
@@ -41,6 +42,7 @@ img {
 #projects {
   padding-top: 6rem; 
   padding-bottom: 6rem;
+  background-color: #70D7FF;
 }
 
 .project-item {
@@ -49,7 +51,13 @@ img {
 }
 
 .project-image {
-  margin-top: 3rem;
+  margin-top: 0.5rem;
+}
+
+#Interests {
+  padding-top: 6rem; 
+  padding-bottom: 6rem;
+  background-color: #D6EDFF;
 }
 
 .btn {
@@ -58,11 +66,11 @@ img {
 }
 
 .secondary{
-  color: #49093E;
+  color: #654597;
 }
 
 .primary {
-  color: #70998C;
+  color: #064789;
 }
 
 em {
@@ -87,4 +95,11 @@ em {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+}
+
+.circle-image {
+  border-radius: 50%;
+  width: 4rem;
+  float: left;
+  display:flex;
 }
